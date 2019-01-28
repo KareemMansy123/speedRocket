@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:showIn="@layout/bank_transfer_app_bar"
+    android:theme="@style/AppThemeLogin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.speedrocket.progmine.speedrocket.View.Activites.BankTransport"
+    >
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+       >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    android:text="@string/type"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_weight="1"
+                    android:text="@string/total_cost"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="12"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/confirm_dialog_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:textSize="15sp"
+                    android:layout_weight="1"
+                    android:hint="@string/amount"
+                    android:textColor="#19a429"
+
+                    />
+                <TextView
+                    android:id="@+id/confirm_dialog_cost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:textSize="15sp"
+                    android:layout_weight="1"
+                    android:hint="@string/amount"
+                    android:textColor="#4fbf1c"
+
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+    android:layout_gravity="center_vertical"
+    android:layout_weight="5"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+       >
+        <Button
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/addcompany_effeect"
+            android:gravity="center"
+            android:onClick="choseImage"
+            android:padding="5dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/choose_image"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            />
+
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/speed-rocket_banks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:backgroundTint="@color/company3"
+            android:paddingTop="16dp"
+            android:layout_marginBottom="5dp"
+            android:spinnerMode="dialog">
+
+        </android.support.v7.widget.AppCompatSpinner>
+
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/payment_date"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#ece6e6"
+            android:backgroundTint="#ece6e6"
+            android:clickable="true"
+            android:drawableEnd="@drawable/calendar"
+            android:drawablePadding="20dp"
+            android:editable="false"
+            android:focusable="false"
+            android:paddingEnd="16dp"
+            android:layout_marginBottom="5dp"
+            android:hint="@string/payment_date"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textSize="15sp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:paddingStart="20dp"
+            android:scrollHorizontally="true"
+            android:textColor="#000"
+            android:textColorHint="#868585"
+            android:layout_weight="1"
+            android:textCursorDrawable="@null" />
+
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/amount"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="#ece6e6"
+            android:backgroundTint="#ece6e6"
+            android:clickable="true"
+            android:hint="@string/amount"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:maxLines="1"
+            android:paddingStart="20dp"
+            android:scrollHorizontally="true"
+            android:textColor="#000"
+            android:textColorHint="#868585" />
+
+
+        <Button
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/addcompany_effeect"
+            android:gravity="center"
+            android:onClick="supmit"
+            android:padding="5dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/supmit"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            />
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        />
+
+
+
+</LinearLayout>

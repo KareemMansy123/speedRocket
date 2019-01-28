@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/tools"
+    app:ignore="NamespaceTypo">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="4dp">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight=".8"
+               android:gravity="center"
+               >
+
+               <de.hdodenhof.circleimageview.CircleImageView
+                   android:layout_width="50dp"
+                   android:layout_height="50dp"
+                   app:civ_border_width="1dp"
+                   android:id="@+id/item_companyLogo"
+                   app:civ_border_color="#000"
+                   android:src="@drawable/sam"
+                   />
+
+
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="0.5"
+               android:gravity="center_vertical"
+
+               >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="سامسونج"
+                    android:textSize="20dp"
+                    android:textAlignment="viewStart"
+                    android:id="@+id/item_companyName"
+                    android:layout_weight=".5"
+
+                    />
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Unconfirmed"
+                   android:textSize="8dp"
+                   android:textColor="#bf0c0f"
+                   android:layout_weight=".5"
+                   android:id="@+id/confirmed"
+
+                   />
+
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="0.7"
+               android:gravity="center_vertical"
+               android:layout_gravity="center_vertical"
+               android:layout_marginRight="5dp"
+               >
+
+
+
+              <RelativeLayout
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                  android:layout_marginEnd="5dp"
+                   android:id="@+id/messages"
+                  android:clickable="true"
+                  android:layout_marginTop="15dp"
+
+                  >
+
+
+                  <com.nex3z.notificationbadge.NotificationBadge
+                      android:id="@+id/badge"
+                      android:layout_width="20dp"
+                      android:layout_height="20dp"
+                      android:layout_marginStart="5dp"
+                      android:layout_alignParentTop="true"
+                      android:layout_alignParentEnd="true"
+                      android:textAlignment="center"
+                      app:badgeBackground="@drawable/notification_badge_small"
+                      app:badgeTextColor="#000"
+                      card_view:badgeTextSize="9sp"
+                      android:clickable="true"
+                      app:maxTextLength="2" />
+
+                    <Button
+                        android:id="@+id/message_btn"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:gravity="center"
+                       android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="33dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/message" />
+
+
+
+
+               </RelativeLayout>
+               <Button
+                   android:layout_width="30dp"
+                   android:layout_height="20dp"
+                   android:background="@drawable/e1"
+                   android:layout_marginRight="5dp"
+                   android:layout_weight="1"
+                   android:id="@+id/item_edit"
+                   />
+
+               <Button
+                   android:layout_width="30dp"
+                   android:layout_height="20dp"
+                   android:background="@drawable/e2"
+
+                   android:id="@+id/item_delete"
+                   android:layout_marginRight="5dp"
+                   android:layout_weight="1"
+                   />
+
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

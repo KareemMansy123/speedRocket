@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/AppThemeLogin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="#fff"
+    tools:showIn="@layout/regeistration_app_bar_navigation_menu"
+    tools:context="com.speedrocket.progmine.speedrocket.View.Activites.RegistrationCustom">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/Registration_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+    </android.support.v4.view.ViewPager>
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        app:tabBackground="@drawable/tab_selector"
+        app:tabGravity="center"
+        app:tabIndicatorHeight="0dp"
+
+        />
+
+    <LinearLayout
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop ="10dp"
+               android:gravity="center"
+                android:background="#000"
+                android:layout_gravity="end"
+                android:id="@+id/nextWizerd"
+                android:text="@string/next"
+                android:textColor="#fff"
+                app:spinning_bar_color="#FFF"
+                app:spinning_bar_padding="6dp"
+                app:spinning_bar_width="4dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

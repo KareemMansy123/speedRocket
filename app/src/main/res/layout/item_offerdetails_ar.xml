@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFF"
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#FFF"
+    android:layout_marginBottom="10dp"
+    android:orientation="horizontal"
+    android:layout_weight="1"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expired"
+            android:textColor="#D50000"
+            android:id="@+id/expired"
+            android:visibility="invisible"
+            android:textDirection="rtl"
+            />
+        <!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10.35"
+            android:fontFamily="@font/gotham"
+            android:gravity="center_vertical"
+            android:layout_marginStart="2dp"
+            android:layout_marginRight="5dp"
+            android:textSize="12dp"
+            />
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/clock"
+            />
+
+           -->
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:textDirection="rtl"
+            android:layoutDirection="rtl"
+            android:id="@+id/name_offer_users_name_linear_layout"
+
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="esmail"
+                android:fontFamily="@font/gotham"
+                android:textSize="12dp"
+                android:textColor="#000000"
+                android:id="@+id/lastnameoffer"
+                android:textDirection="ltr"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mahmood"
+                android:fontFamily="@font/gotham"
+                android:textSize="12dp"
+                android:id="@+id/firstnameoffer"
+                android:textColor="#000000"
+                android:layout_marginRight="5dp"
+                android:textDirection="ltr"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layoutDirection="rtl"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/offering"
+                android:fontFamily="@font/gotham"
+                android:textSize="12dp"
+                android:textColor="#E65100"
+                android:layout_marginRight="10dp"
+                />
+
+            <TextView
+                android:id="@+id/offer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/gotham"
+                android:text="13"
+                android:textColor="#000000"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:background="@drawable/rocket_icon_colored"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layoutDirection="rtl"
+            >
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="10dp"
+                android:background="@drawable/f1"
+                android:id="@+id/imagecountryoffer"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Egypt"
+                android:layout_marginEnd="10dp"
+                android:textSize="12dp"
+                android:id="@+id/countryoffer"
+                />
+
+
+            <Button
+                android:id="@+id/offerhim"
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/moredetails_effect"
+                android:fontFamily="@font/gotham"
+                android:onClick="OfferHim"
+                android:text="@string/sendOffer"
+                android:textColor="#FFF"
+                android:textSize="8dp"
+
+                />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/profileimageoffer"
+            app:civ_border_color="#625d7e"
+            app:civ_border_width="1dp"
+            android:src="@drawable/profile_image"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2.4"
+        android:background="@drawable/line"
+        >
+
+    </LinearLayout>
+
+</LinearLayout>

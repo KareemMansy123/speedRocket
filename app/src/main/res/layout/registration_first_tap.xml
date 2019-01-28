@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppThemeLogin"
+    android:background="@drawable/login_background"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="top"
+        >
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/smartphone"
+            android:drawablePadding="20dp"
+            android:textColor="#FFF"
+            android:textCursorDrawable="@null"
+            android:hint="@string/mobile"
+            android:id="@+id/reg_personalmobile"
+            android:textColorHint="#90A4AE"
+            android:inputType="number"
+            android:backgroundTint="#FFF"
+            android:scrollHorizontally="true"
+            android:layout_margin="16dp"
+            android:maxLines="1"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

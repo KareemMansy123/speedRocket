@@ -1,0 +1,457 @@
+
+<resources>
+    <string-array name="Interest">
+        <item>تكنولجيا</item>
+        <item>رياضه</item>
+        <item>ترفيه</item>
+    </string-array>
+
+    <string-array name="cityEmirat">
+        <item>أبوظبي</item>
+        <item>أم القيوين</item>
+        <item>الشارقة</item>
+        <item>العين</item>
+        <item>الفجيرة </item>
+        <item>خورفكان</item>
+        <item>دبا الحصن</item>
+        <item>دبي</item>
+        <item>رأس الخيمة</item>
+        <item>عجمان</item>
+    </string-array>
+    <string-array name="country"  >
+        <item>مصر</item>
+        <item>الامارات العربيه</item>
+        <item>المملكه العربيه السعوديه</item>
+        <item>الكويت</item>
+    </string-array>
+    <string-array name="citysaudi">
+        <item> محافظة الرياض</item>
+        <item> الدرعية </item>
+        <item>الخرج </item>
+        <item>الدوادمي </item>
+        <item> المجمعة </item>
+        <item> القويعية </item>
+        <item> الأفلاج </item>
+        <item> وادي الدواسر </item>
+        <item> الزلفي </item>
+        <item> شقراء </item>
+        <item> حوطة بني تميم </item>
+        <item> عفيف </item>
+        <item> الغاط </item>
+        <item> السليل </item>
+        <item> ضرما	 </item>
+        <item> المزاحمية </item>
+        <item> رماح </item>
+        <item> ثادق </item>
+        <item> حريملاء </item>
+        <item> الحريق </item>
+        <item> مرات </item>
+        <item> الرين </item>
+        <item> مكة المكرمة </item>
+        <item> جدة </item>
+        <item> الطائف </item>
+        <item> القنفذة </item>
+        <item> الليث </item>
+        <item> رابغ </item>
+        <item> خليص </item>
+        <item> الخرمة </item>
+        <item> رنية </item>
+        <item> تربة </item>
+        <item> الجموم </item>
+        <item> الكامل </item>
+        <item> المويه </item>
+        <item> ميسان </item>
+        <item> أضم </item>
+        <item> العرضيات </item>
+        <item> بحرة </item>
+        <item> المدينة المنورة </item>
+        <item> ينبع </item>
+        <item> العلا </item>
+        <item> مهد الذهب </item>
+        <item> الحناكية </item>
+        <item> بدر </item>
+        <item> خيبر </item>
+        <item> العيص </item>
+        <item> وادي الفرع </item>
+        <item> بريدة </item>
+        <item> عنيزة </item>
+        <item> الرس </item>
+        <item> المذنب </item>
+        <item> البكيرية </item>
+        <item> البدائع </item>
+        <item> الأسياح </item>
+        <item> النبهانية </item>
+        <item> الشماسية </item>
+        <item> عيون الجواء </item>
+        <item> رياض الخبراء </item>
+        <item> عقلة الصقور	 </item>
+        <item> ضرية	 </item>
+        <item> الدمام </item>
+        <item> الأحساء </item>
+        <item> حفر الباطن </item>
+        <item> الجبيل </item>
+        <item> القطيف </item>
+        <item> الخبر </item>
+        <item> الخفجي </item>
+        <item> رأس تنورة </item>
+        <item> بقيق </item>
+        <item> النعيرية </item>
+        <item> قرية العليا </item>
+        <item> العديد </item>
+        <item> أبها </item>
+        <item> خميس مشيط </item>
+        <item> بيشة </item>
+        <item> النماص </item>
+        <item> محايل عسير </item>
+        <item> ظهران الجنوب </item>
+        <item> تثليث </item>
+        <item> سراة عبيدة	 </item>
+        <item> رجال ألمع </item>
+        <item> بلقرن </item>
+        <item> أحد رفيدة </item>
+        <item> المجاردة	 </item>
+        <item> البرك </item>
+        <item> بارق </item>
+        <item> تنومة </item>
+        <item> طريب </item>
+        <item> الحرجه </item>
+        <item> تبوك </item>
+        <item> الوجه </item>
+        <item> ضبا </item>
+        <item> تيماء </item>
+        <item> أملج </item>
+        <item> حقل </item>
+        <item> البدع </item>
+        <item> حائل </item>
+        <item> بقعاء </item>
+        <item> الغزالة </item>
+        <item> الشنان </item>
+        <item> الحائط </item>
+        <item> السليمي </item>
+        <item> الشملي </item>
+        <item> موقق </item>
+        <item> سميراء	 </item>
+        <item> عرعر </item>
+        <item> رفحاء </item>
+        <item> طريف </item>
+        <item> العويقيلة </item>
+        <item> جازان </item>
+        <item> صبيا </item>
+        <item> أبو عريش </item>
+        <item> صامطة </item>
+        <item> بيش </item>
+        <item> الدرب </item>
+        <item> الحرث </item>
+        <item> ضمد	 </item>
+        <item> الريث </item>
+        <item> جزر فرسان </item>
+        <item> الدائر </item>
+        <item> العارضة	 </item>
+        <item> أحد المسارحة </item>
+        <item> العيدابي </item>
+        <item> فيفاء </item>
+        <item> الطوال </item>
+        <item> هروب </item>
+        <item>نجران</item>
+        <item> شرورة </item>
+        <item> حبونا </item>
+        <item> بدر الجنوب </item>
+        <item> يدمه </item>
+        <item> ثار </item>
+        <item> خباش </item>
+        <item> الخرخير </item>
+        <item> الباحة </item>
+        <item> بلجرشي </item>
+        <item> المندق </item>
+        <item> المخواة </item>
+        <item> قلوة </item>
+        <item> العقيق </item>
+        <item> القرى </item>
+        <item> غامد الزناد </item>
+        <item> الحجرة </item>
+        <item> بني حسن </item>
+        <item> سكاكا </item>
+        <item> القريات </item>
+        <item> دومة الجندل	 </item>
+        <item> طبرجل	 </item>
+    </string-array>
+    <string-array name="cityEgypt">
+        <item>إسكندرية</item>
+        <item>أسوان</item>
+        <item>أسيوط</item>
+        <item>البحيره</item>
+        <item>بنى سويف</item>
+        <item>القاهرة</item>
+        <item>الدقهليه</item>
+        <item>دمياط</item>
+        <item>الفيوم</item>
+        <item>الغربيه</item>
+        <item>الجيزة</item>
+        <item>إسماعيليه</item>
+        <item>كفر الشيخ</item>
+        <item>محافظة الأقصر</item>
+        <item>مطروح</item>
+        <item>المنيا</item>
+        <item>المنوفيه</item>
+        <item>الوادى الجديد</item>
+        <item>شمال سينا</item>
+        <item>بور سعيد</item>
+        <item>القليوبية</item>
+        <item>قنا</item>
+        <item>البحر الأحمر</item>
+        <item>الشرقية</item>
+        <item>سوهاج</item>
+        <item>جنوب سينا</item>
+        <item>السويس</item>
+    </string-array>
+
+    <string-array name="cityKuwait">
+        <item> العاصمه </item>
+        <item> جهراء </item>
+        <item>فروانيه </item>
+        <item>حولي </item>
+        <item> مبارك الكبير </item>
+        <item> الاحمدي </item>
+    </string-array>
+
+
+
+    <string name="app_name">Speedrocket</string>
+    <string name="accountNumber"  >رقم الحساب</string>
+    <string name="bankName"  >اسم البنك</string>
+    <string name="swiftCode"  >كود السويفت</string>
+    <string name="branchAddress"  >عنوان الفرع</string>
+
+    <string name="addBank"  >اضف بنك</string>
+    <string name="email"  >البريد الإلكترونى او رقم الهاتف </string>
+    <string name="fax"  >فاكس</string>
+    <string name="mobileNumber"  >رقم الموبايل</string>
+    <string name="companyLogo"  >لوجو الشركة</string>
+    <string name="startTime"  >تاريخ البداية</string>
+    <string name="endTime"  >تاريخ النهاية</string>
+    <string name="discount"  >الخصم</string>
+    <string name="addCompany"  >اضف شركة</string>
+    <string name="upload"  >تحميل</string>
+    <string name="offerImage"  >صورة العرض</string>
+    <string name="choosePackage"  >اختار الباقة</string>
+    <string name="advertice"  >اعلن</string>
+    <string name="productImage"  >صورة المنتج</string>
+    <string name="addProduct"  >اضف منتج</string>
+    <string name="buyQuanteties"  >شراء روكتس</string>
+    <string name="remaining"  >المتبقى</string>
+    <string name="yourCredit"  >رصيدك</string>
+    <string name="coins"  >العملات</string>
+    <string name="coin"  >روكيت</string>
+    <string name="amount"  >الكميه</string>
+    <string name="egp"  >ج.م</string>
+    <string name="otherAmount"  >الكميات الأخرى</string>
+    <string name="price"  >السعر</string>
+    <string name="weAccept"  >نحن نقبل</string>
+    <string name="cardNumber"  >رقم الكارت</string>
+    <string name="expirationDate"  >تاريخ انتهاء الصلاحيه</string>
+    <string name="cvvCode"  >رقم ال cvv</string>
+    <string name="pay"  >ادفع</string>
+    <string name="address"  >العنوان</string>
+    <string name="sendMessage"  >ارسال</string>
+    <string name="description"  >الوصف</string>
+    <string name="cancel"  >الغاء</string>
+    <string name="password"  >كلمة المرور</string>
+    <string name="forgetPassword"  >هل نسيت كلمة المرور</string>
+    <string name="signWith"  >تسجيل الدخول ب</string>
+    <string name="createNewAccount"  >انشاء حساب جديد</string>
+    <string name="registertion"  >انشاء حساب</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="cashReport"  >تقرير النقدية</string>
+    <string name="totalCash"  >اجمالى النقدية</string>
+    <string name="pendingCash"  >فى انتظار النقدية</string>
+    <string name="netCash"  >صافى النقد</string>
+    <string name="requestCash"  >طلب نقدا</string>
+    <string name="addBankAccount"  >اضف حساب بنكى</string>
+    <string name="profile"  >الحساب</string>
+    <string name="company"  >الشركة</string>
+    <string name="product"  >المنتج</string>
+    <string name="advertisment"  >الاعلان</string>
+    <string name="myCash"  >النقدية</string>
+    <string name="contactUs"  >اتصل بنا</string>
+    <string name="addOffer"  >اضف عرض</string>
+    <string name="shippingInfo"  >معلومات الشحن</string>
+    <string name="name"  >العنوان بالتفصيل</string>
+    <string name="mobile"  >الموبايل</string>
+    <string name="placeOrder"  >اطلب</string>
+    <string name="presenter"  >المقدم</string>
+    <string name="moreDetails"  >تفاصيل اكثر</string>
+    <string name="hours"  >س</string>
+    <string name="minutes"  >د</string>
+    <string name="seconds"  >ث</string>
+    <string name="user"  >المشرف</string>
+    <string name="firstName"  >الاسم الاول</string>
+    <string name="lastName"  >الاسم الاخير</string>
+    <string name="confirm"  >تأكيد</string>
+    <string name="male"  >ذكر</string>
+    <string name="female"  >انثى</string>
+    <string name="chooseYourInterest"  >اختار الاهتمامات المفضلة</string>
+    <string name="register"  >تسجيل</string>
+    <string name="update"  >تعديل</string>
+    <string name="congratulations"  >تهانينا</string>
+    <string name="YouHaveWonTheOffer"  >انت حصلت على العرض</string>
+    <string name="continu"  >استمر</string>
+    <string name="remember"  >تذكر</string>
+    <string name="rememberContain"  >سيصلك هذا المنتج فى خلال 10 أيام\n
+ربما تزيد بناء علي العنوان </string>
+    <string name="warningMessage"  >رسالة تحذير</string>
+    <string name="warningContain"  >هل انت متأكد من حذف هذا البند ؟</string>
+    <string name="yes"  >نعم</string>
+    <string name="no"  >لا</string>
+    <string name="moreInfo"  >معلومات اكثر</string>
+    <string name="buyNow"  >اشترى الان</string>
+    <string name="chooseYourBankAccount"  >اختار حسابك البنكى</string>
+    <string name="send"  >ارسال</string>
+    <string name="message"  >الرسالة</string>
+    <string name="chooseYourCompany"  >اختار شركتك</string>
+    <string name="offer"  >العرض</string>
+    <string name="basicInfo"  >معلومات</string>
+    <string name="livesIn"  >الدولة</string>
+    <string name="homeTown"  >المدينة</string>
+    <string name="gender"  >النوع</string>
+    <string name="language"  >اللغه</string>
+    <string name="interested"  >الاهتمامات</string>
+    <string name="changePassword"  >تغير كلمة السر</string>
+    <string name="joinDate"  >تاريخ الانضمام</string>
+    <string name="location"  >الموقع</string>
+    <string name="category"  >القسم</string>
+    <string name="Email"  >البريد الالكترونى</string>
+    <string name="Phone"  >التليفون</string>
+    <string name="Fax"  >الفاكس</string>
+    <string name="Address"  >العنوان</string>
+    <string name="goodLuck"  >حظ سعيد</string>
+    <string name="sorryOfferEnded"  >اسف العرض انتهى</string>
+    <string name="haveWonTheOffer"  >فزت بالعرض</string>
+    <string name="tryAnotherOffer"  >حاول فى عرض اخر</string>
+    <string name="paymentMessage"  >رسالة الدفع</string>
+    <string name="paymentMessageContain"  >اسف , انت لا تملك عملات كافية للإستمرار .</string>
+    <string name="recharge"  >اعد الشحن</string>
+    <string name="offering"  >يعرض</string>
+    <string name="sendOffer"  >ارسال عرض</string>
+    <string name="start"  >ابدأ</string>
+    <string name="MoreInfo"  >معلومات اكثر</string>
+    <string name="buy"  >اضافه</string>
+    <string name="offersYou"  >يعرض عليك</string>
+    <string name="accept"  >يقبل</string>
+    <string name="amountOfCoins"  >كمية العملات : </string>
+    <string name="welcome"  >مرحبا ,  </string>
+    <string name="inSpeedRocket"  >فى سبيد روكيت</string>
+
+    <string name="home" translatable="true">الصفحة الرئيسية</string>
+    <string name="offers"  >العروض</string>
+    <string name="products"  >المنتجات</string>
+    <string name="myPanal"  >لوحة التحكم</string>
+    <string name="myProducts"  >عروضي</string>
+    <string name="buyCoins"  >اشترى روكيتس</string>
+    <string name="country"  >الدولة</string>
+    <string name="Language"  >اللغة</string>
+    <string name="logOut"  >تسجيل الخروج</string>
+    <string name="offerDetails">تفاصيل العرض</string>
+    <string name="profileAccount">الحساب الشخصي</string>
+    <string name="cardDetails">تفاصيل الكارت</string>
+    <string name="payment"  >الحساب</string>
+    <string name="companies"  >الشركات</string>
+    <string name="verification"  >التحقق</string>
+    <string name="Offer"  >اعرض</string>
+
+    <string name="day"  >اليوم</string>
+    <string name="month"  >الشهر</string>
+    <string name="all"  >الإجمالى</string>
+
+
+    <string name="chooseProduct"  >اختار المنتج</string>
+    <string name="ok"  >تم</string>
+    <string name="communicate">التواصل </string>
+    <string name="title_activity_navigation_menu"  >Speed Rocket</string>
+    <string name="product_discount_between">الخصم من : </string>
+    <string name="to">% الي</string>
+    <string name="egp_per_day">جم في اليوم</string>
+    <string name="cost">التكلفه :</string>
+    <string name="total_cost">التكلفه الكليه :</string>
+    <string name="eg">ج.م</string>
+    <string name="cash_on_dilivery">الدفع عند الاستلام</string>
+    <string name="pay_with_fawry">البطاقه الاتمانية  &amp; فوري </string>
+    <string name="paypal_payment">باي بال</string>
+    <string name="shipping_info">معلومات التوصيل </string>
+    <string name="companyRegistration">انشاء شركه</string>
+    <string name="fawry">الدفع بفوري </string>
+    <string name="Editebtn">تعديل</string>
+    <string name="Deletebtn">حذف</string>
+    <string name="arabic_namee_warrning">تاكد من ادخال الاسم والوصف  بالعربية </string>
+    <string name="chose_packege_warning">من فضلك اختر باقه</string>
+    <string name="free_packege_warning">من فضلك ادخل عدد الروكتس</string>
+    <string name="winner_day">يوم</string>
+    <string name="winner_latest">بقي</string>
+    <string name="winner_expired">انتهي العرض</string>
+    <string name="buy_now">اشتري الان </string>
+    <string name="shooping_cart">سله المشتروات</string>
+    <string name="days">اايام</string>
+    <string name="remove">مسح</string>
+    <string name="order">اطلب</string>
+    <string name="total_cost1">الاجمالي :</string>
+    <string name="type">النوع :</string>
+    <string name="puy_with">طريقه الدفع :</string>
+    <string name="bill_type_product">فاتوره منتجات </string>
+    <string name="accept_terms_and_data_police">اوفق علي الشروط واجراءات الخصوصيه .</string>
+    <string name="sold">تم الشراء</string>
+    <string name="active">النشطه </string>
+    <string name="allOffers">الكل</string>
+    <string name="LogOut">هل تريد تسجيل الخروج ..؟</string>
+    <string name="areYouSure">هل انت متاكد..؟</string>
+    <string name="discard">تجاهل</string>
+    <string name="yourOrders">طلباتي</string>
+    <string name="company_orders">طلبات منتجاتك </string>
+    <string name="bank_transport">ايداع بنكي</string>
+    <string name="supmit">تسجيل</string>
+    <string name="payment_date">تاريخ العمليه</string>
+    <string name="add_photo">اضف صوره</string>
+    <string name="gallary">اختر من المعرض</string>
+    <string name="pic_photo">التقط صوره جديده</string>
+    <string name="choose_image">اضف صوره</string>
+    <string name="deactivate">غير مفعل </string>
+    <string name="quantity">الكميه :</string>
+    <string name="go_confirm_company">وثق احدي الشركات </string>
+    <string name="warrning_confirm_company">انت لم توثق اي من شركاتك الحاليه </string>
+    <string name="confirm_company">وثق الشركه </string>
+    <string name="verfified_text">حسنا انت اكملت كل خطوات التوثيق سيقوم الادمن بالمراجعه وتوثيق الشركه </string>
+    <string name="go_to_home_page">الذهاب الي الصفحه الرئيسيه </string>
+    <string name="commercial_registration_card">السجل التجاري  :</string>
+    <string name="tax_card">البطاقه الضريبيه  :</string>
+    <string name="identification_card">البطاقه الشخصيه  :</string>
+    <string name="confirmed">مفعله</string>
+    <string name="unconfirmed">غير مفعله</string>
+    <string name="conditions">الشروط </string>
+    <string name="terms_of_sale">شروط البيع </string>
+    <string name="usage_agreement">اتفاقيه الاستخدام </string>
+    <string name="confirm_password">تاكيد كلمه السر</string>
+    <string name="new_password">كلمه السر الجديده</string>
+    <string name="old_password">كلمه السر الحاليه</string>
+    <string name="quantitye">الكميه</string>
+    <string name="previous"><![CDATA[<- السابق]]></string>
+    <string name="next">التالي</string>
+    <string name="rate_company">قيم الشركه </string>
+    <string name="rate">التقييم</string>
+    <string name="title">العنوان</string>
+    <string name="country_choose">اختر المحافظه ..</string>
+    <string name="your_message">رسالتك</string>
+    <string name="company_message">مراسله الشركات </string>
+    <string name="spped_rocket_banks">البنوك الخاصه ب speed rocket</string>
+    <string name="expiry_date">منتهي الصلاحيه</string>
+    <string name="this_method_will_be_allowed_soon_please_try_another_payment_method">هذه الوسيله غير متاحه حاليا اختر احد الوسائل الاخري :)</string>
+    <string name="if_you_already_paied_just_click_ok_even_take_the_information_blew_and_pay_first">اذا قمت بعمليه الدفع اضغط تم او احفظ البيانات بالاسفل وقم بعمليه الدفع اولا </string>
+    <string name="login_first">من فضلك سجل الدخول اولا ..</string>
+    <string name="please_dowenload_the_last_version_of_the_app">من فضلك قم بتحديث نسخه التطبيق فالتحديث ضروري </string>
+    <string name="there_is_no_internet_connection_please_check_your_connection"> من فضلك راجع اتصالك بالانترنت </string>
+    <string name="trader_pages">صفحات التاجر</string>
+    <string name="verify_device">تاكيد الرقم</string>
+    <string name="we_have_send_temporary_verification_code_enter_the_code_to_verify_this_device">لقد ارسل اليك رقم التفعيل من فضلك ادخله لبتم التفعيل</string>
+    <string name="code_resend_time">وقت اعاده ارسال رفم التفعيل :</string>
+    <string name="resend_code">اعاده ارسال رفم التفعيل</string>
+    <string name="email_optional">البريد الالكتروني (اختياري)</string>
+    <string name="please_ctive_your_account_by_number_active_now">من فضلك قم بتاكيد حسابك ... من هنا </string>
+
+</resources>

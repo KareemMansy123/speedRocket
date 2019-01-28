@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#bcdadada"
+    >
+
+    <TextView
+        android:layout_weight=".3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CIB"
+        android:id="@+id/accountName"
+        android:fontFamily="@font/gotham"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speed Rocket"
+        android:id="@+id/bankName"
+        android:fontFamily="@font/gotham"
+        android:layout_weight=".2"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100035349318"
+        android:fontFamily="@font/gotham"
+        android:id="@+id/accountNumber"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:layout_weight=".5"
+        />
+
+
+</LinearLayout>

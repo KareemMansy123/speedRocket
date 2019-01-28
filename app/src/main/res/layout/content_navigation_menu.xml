@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#93929c"
+    android:id="@+id/root_layout"
+    android:fitsSystemWindows="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.speedrocket.progmine.speedrocket.View.Activites.NavigationMenu"
+    tools:showIn="@layout/app_bar_navigation_menu">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="UselessParent">
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#fff"
+      android:text="@string/please_ctive_your_account_by_number_active_now"
+      android:paddingStart="10dp"
+      android:paddingBottom="7dp"
+      android:paddingTop="7dp"
+      android:textColor="#f42323"
+      android:id="@+id/accountActive"
+      android:visibility="gone"
+      android:layout_marginBottom="5dp"
+      tools:ignore="RtlSymmetry" />
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/no_internet_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone">
+
+          <ImageView
+              android:id="@+id/no_internet_img"
+              android:layout_width="150dp"
+              android:layout_height="150dp"
+              android:layout_centerInParent="true"
+              android:src="@drawable/no_signal2"
+
+              tools:ignore="ContentDescription" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/no_internet_img"
+              android:layout_marginTop="20dp"
+              android:text="no internt connection\ncheck your connection "
+              android:textColor="#fff"
+              android:textSize="20sp"
+
+              tools:ignore="HardcodedText" />
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/item_postlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+      </RelativeLayout>
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+  </RelativeLayout>
+</LinearLayout>
+<ProgressBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:visibility="gone"/>
+
+</FrameLayout>
